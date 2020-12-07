@@ -1,0 +1,27 @@
+{
+    "name": "PWA-TEST",
+    "short_name": "PWA",
+    "theme_color": "#4DBA87",
+    "background_color": "#fafafa",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "./img/icons/apple-touch-icon-76x76.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icons/apple-touch-icon-120x120.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icons/apple-touch-icon-180x180.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        }
+    ]
+}
