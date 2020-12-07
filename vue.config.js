@@ -5,8 +5,9 @@ module.exports = {
     appleMobileWebAppStatusBarStyle: 'black',
     workboxPluginMode: 'InjectManifest',
     manifestCrossorigin: 'anonymous',
-    workboxOptions: {
-      swSrc:'./public/manifest.json'
-    }
-  }
+    manifestPath:'./public/manifest.json',
+  },
+  publicPath: process.env.NODE_ENV === 'production'
+  ? '/dist/'
+  : '/'
 }
